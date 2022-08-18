@@ -10,7 +10,7 @@ services:
       - fastapi
 
   fastapi:
-    image: fastapi_coinapi_endpoints
+    image: demigorrgon/coinapi_endpoints:latest
     # build:
     #   context: .
     #   dockerfile: ./Dockerfile
